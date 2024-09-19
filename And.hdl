@@ -11,7 +11,7 @@ CHIP And {
     OUT out;
     
     PARTS:
-   Not(in=sel,out=notsel);
-   And(a=in,b=notsel,out=a)
-   And(a=sel,b=in,out=b)
+    Not (in=sel, out=notsel);
+    And (a=in, b=notsel, out=a);
+    And (a=sel, b=in, out=b);
 }
